@@ -23,6 +23,19 @@ This Laravel API for car parking app includes various features to manage user ac
 
 The API also includes endpoints to manage vehicles and parking start/stop events, enabling users to easily track their parking activities. The database structure is well defined and documented, providing a robust foundation for the API.</p>
 
+
+
+<br><br>
+## I will cover
+- DB structure
+- User registration and login
+- Profile and password management
+- Non-public endpoints Auth protection by Laravel Sanctum
+- Managing vehicles and parking start/stop events
+- <b><i>I will also write automated PHPUnit tests and generate the documentation for my API.</i></b>
+
+
+
 <br><br>
 ### Getting Started
 Follow the steps below to set up the project on your local machine.
@@ -37,7 +50,7 @@ Follow the steps below to set up the project on your local machine.
 
 <br><br>
 #Installing
-- Clone the repository using git clone https://github.com/iamrikie/API-for-Car-Parking.git.
+- Clone the repository using git clone https://github.com/iamrikie/API-for-Car-Parking.git
 - Navigate to the project directory using cd API for a Car Parking App.
 - Install the required dependencies using composer install.
 - Copy the .env.example file to .env using cp .env.example .env.
@@ -46,15 +59,6 @@ Follow the steps below to set up the project on your local machine.
 - Migrate the database tables and seeders using php artisan migrate --seed.
 - Start the development server using php artisan serve.
 
-
-<br><br>
-## I will cover
-- DB structure
-- User registration and login
-- Profile and password management
-- Non-public endpoints Auth protection by Laravel Sanctum
-- Managing vehicles and parking start/stop events
--> I will also write automated PHPUnit tests and generate the documentation for my API.
 
 
 <br><br>
