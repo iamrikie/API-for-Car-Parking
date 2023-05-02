@@ -17,7 +17,7 @@ This is a Laravel backend test project.
 
 <br><br>
 ### About the project
-<p>This project is a Laravel-based API for a car parking application that allows users to find and book parking spots in various locations. The API is designed to provide a secure and scalable backend for the car parking app, enabling users to easily search for parking spots, view availability, and make reservations.
+<p>This small project is a Laravel-based API for a car parking application that allows users to find and book parking spots in various locations. The API is designed to provide a secure and scalable backend for the car parking app, enabling users to easily search for parking spots, view availability, and make reservations.
 
 This Laravel API for car parking app includes various features to manage user accounts, vehicles, and parking events. Users can register and login, manage their profiles and passwords, and securely access non-public endpoints using Laravel Sanctum authentication.
 
