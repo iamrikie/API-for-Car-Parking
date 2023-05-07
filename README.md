@@ -34,7 +34,16 @@ The API also includes endpoints to manage vehicles and parking start/stop events
 - Managing vehicles and parking start/stop events
 - <b><i>I will also write automated PHPUnit tests and generate the documentation for my API.</i></b>
 
+<br>
 
+## Features
+- User register
+- User login
+- User view/update profile/password
+- Manage user's vehicles
+- Get prices for parking zones/areas
+- Start/Stop parking at chosen zones
+- View the current/total price of parking
 
 <br><br>
 ### Getting Started
