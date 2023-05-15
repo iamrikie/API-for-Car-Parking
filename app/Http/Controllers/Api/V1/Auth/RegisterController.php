@@ -36,6 +36,5 @@ class RegisterController extends Controller
         // The purpose of extracting the user agent substring is to gather information about the client's device or browser for logging, tracking, or other purposes as we will see as I progress with the project.
         $device = substr($request->userAgent() ?? '', 0, 255);
         
-
     }
 }
