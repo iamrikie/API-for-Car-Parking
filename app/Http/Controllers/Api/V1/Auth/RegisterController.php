@@ -4,9 +4,10 @@ namespace App\Http\Controllers\Api\V1\Auth;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use App\Http\Controllers\Controller;
-use Illuminate\Auth\Events\Registered;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Auth\Events\Registered;
 use Illuminate\Validation\Rules\Password;
 
 class RegisterController extends Controller
@@ -36,5 +37,9 @@ class RegisterController extends Controller
         // The purpose of extracting the user agent substring is to gather information about the client's device or browser for logging, tracking, or other purposes as we will see as I progress with the project.
         $device = substr($request->userAgent() ?? '', 0, 255);
         
+
+        return response()->json([
+            'access_token' => $user->createToken($device)->plainTextToken,
+        ], Response::HTTP_CREATED);
     }
 }
